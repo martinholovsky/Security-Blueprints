@@ -1,3 +1,7 @@
+# iOS (iPhone & iPad) Hardening Guide
+
+![iOS security guide logo](images/ios_security_guide.png)
+
 | **Setting** | **Location in Settings** | **What to Set Up** | **User Impact** | **Security Importance** | **ATT&CK TTPs** | **TTP Explanation** |
 |---|---|---|---|---|---|---|
 | **Initial Setup** |  |  |  |  |  |  |
