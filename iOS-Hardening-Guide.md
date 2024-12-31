@@ -54,4 +54,5 @@
 - Password Managers
 - Passkeys
 - Stricter Control Screen settings
+- Add device restarts to APT-level
 - ...
