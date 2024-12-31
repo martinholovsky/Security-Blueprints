@@ -52,4 +52,6 @@
 ## ToDo
 - DoH profiles
 - Password Managers
+- Passkeys
+- Stricter Control Screen settings
 - ...
