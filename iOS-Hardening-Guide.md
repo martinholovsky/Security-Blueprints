@@ -62,6 +62,8 @@ Below you can find links on files which will update your iOS profile to use DoH
 | Canadian Shield | None | [CanadianShield-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/CanadianShield-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
 | Canadian Shield | Blocking malware and phishing sites | [CanadianShield-Security-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/CanadianShield-Security-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
 
+Download selected profile directly to your iOS device and save it in Files. Open profile file in there and notification will tell you to review new configuration in Settings. Look for it in Settings below your Profile image (named "Profile Downloaded"). Then click on "Install" in top right corner.
+Source of all DoH profiles is: https://github.com/paulmillr/encrypted-dns
 
 ## ToDo
 - Password Managers
