@@ -72,9 +72,6 @@ This is not extensive list and there are many other password managers, but below
 - [Bitwarden](https://bitwarden.com/) - open-source, does have free version which might be suitable for many, extra features are included in various plans. Its also a good option for enteprise and it allows you to run Bitwarden server on-prem, so you dont need to rely on SaaS.
 
 ## ToDo
-- Password Managers
 - Passkeys
-- Stricter Control Screen settings
-- Add device restarts to APT-level
 - Screen Time (great hidden features for control and restrictions)
 - ...
