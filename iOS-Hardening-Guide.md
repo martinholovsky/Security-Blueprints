@@ -71,7 +71,24 @@ This is not extensive list and there are many other password managers, but below
 - [1Password](https://1password.com/) - SaaS, paid, but well-known and very capable, suitable also for enterprise clients.
 - [Bitwarden](https://bitwarden.com/) - open-source, does have free version which might be suitable for many, extra features are included in various plans. Its also a good option for enteprise and it allows you to run Bitwarden server on-prem, so you dont need to rely on SaaS.
 
+## Why Passkeys are so Important?
+- **Eliminate Password Vulnerabilities:** Passwords are inherently vulnerable to various attacks like phishing, credential stuffing, and brute-force attacks. Passkeys remove the reliance on passwords altogether, significantly reducing these risks.
+- **Phishing-Resistant:** Passkeys are linked to specific websites and apps, making it nearly impossible for attackers to trick users into entering their credentials on fake websites.
+- **Stronger Security:** Passkeys utilize public-key cryptography, a highly secure method that is much stronger than traditional passwords.
+- **Improved User Experience:** Passkeys are easier to use than passwords and traditional 2FA methods, as they rely on biometrics or device authentication. This leads to a smoother and more convenient login experience.
+
+| Feature | Passkeys | Passwords | SMS-based 2FA | Authenticator Apps |
+|---|---|---|---|---|
+| **Security** | Strongest | Weakest | Vulnerable to SIM swapping and phishing | Strong, but can be susceptible to phishing and device compromise |
+| **Phishing Resistance** | Yes | No | No | Partially (can be tricked by sophisticated phishing) |
+| **User Experience** | Most convenient | Least convenient | Can be slow and unreliable | Requires an extra step and app installation |
+| **Cost** | Free | Free | Can incur costs for SMS messages | Free |
+| **Availability** | Increasingly supported | Widely supported | Widely supported | Widely supported |
+
+### Where to store Passkeys?
+Apple devices are using HW security, but in case your Apple account will be compromised, potentially adversary can sync your passkeys to Apple device under their control. Still its a good and recommended options for most people, because if you followed this guide, you already reduced probability of such attack to minimum.
+
+**For privileged access to critical systems is preffered to use physical Security Key. Recommended is [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/) as it works very well with Apple and many other devices (via USB-C or NFC).**
+
 ## ToDo
-- Passkeys
 - Screen Time (great hidden features for control and restrictions)
-- ...
