@@ -55,4 +55,5 @@
 - Passkeys
 - Stricter Control Screen settings
 - Add device restarts to APT-level
+- Screen Time (great hidden features for control and restrictions)
 - ...
