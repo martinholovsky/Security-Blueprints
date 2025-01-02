@@ -56,11 +56,11 @@ Below you can find links on files which will update your iOS profile to use DoH
 
 | **Provider** | **Extras** | **iOS Profile Link** | Related website |
 |---|---|---|---|
-| Google | None | [Google-DoH](./files/Google-DoH.mobileconfig) | https://developers.google.com/speed/public-dns/docs/doh |
-| CloudFlare | None | [CloudFlare-DoH](./files/CloudFlare-DoH.mobileconfig) | https://developers.cloudflare.com/1.1.1.1/encryption/ |
-| CloudFlare | Blocking malware and phishing sites | [CloudFlare-Security-DoH](./files/CloudFlare-Security-DoH.mobileconfig) | https://developers.cloudflare.com/1.1.1.1/setup/#1111-for-families |
-| Canadian Shield | None | [CanadianShield-DoH](./files/CanadianShield-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
-| Canadian Shield | Blocking malware and phishing sites | [CanadianShield-Security-DoH](./files/CanadianShield-Security-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
+| Google | None | [Google-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/Google-DoH.mobileconfig) | https://developers.google.com/speed/public-dns/docs/doh |
+| CloudFlare | None | [CloudFlare-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/CloudFlare-DoH.mobileconfig) | https://developers.cloudflare.com/1.1.1.1/encryption/ |
+| CloudFlare | Blocking malware and phishing sites | [CloudFlare-Security-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/CloudFlare-Security-DoH.mobileconfig) | https://developers.cloudflare.com/1.1.1.1/setup/#1111-for-families |
+| Canadian Shield | None | [CanadianShield-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/CanadianShield-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
+| Canadian Shield | Blocking malware and phishing sites | [CanadianShield-Security-DoH](https://raw.github.com/martinholovsky/Security-Blueprints/main/files/CanadianShield-Security-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
 
 
 ## ToDo
