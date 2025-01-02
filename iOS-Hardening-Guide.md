@@ -65,6 +65,12 @@ Below you can find links on files which will update your iOS profile to use DoH
 Download selected profile directly to your iOS device and save it in Files. Open profile file in there and notification will tell you to review new configuration in Settings. Look for it in Settings below your Profile image (named "Profile Downloaded"). Then click on "Install" in top right corner.
 Source of all DoH profiles is: https://github.com/paulmillr/encrypted-dns
 
+## Password Managers
+This is not extensive list and there are many other password managers, but below are those which I can recommend.
+- [Apple Passwords](https://apps.apple.com/us/app/passwords/id6473799789) - it allows you to save passwords, passskeys, TOTPs, WiFi credentials and share selected passwords with others/family. I hope in future it will be extended to support eg. Credit Cards, Secure Notes etc. Its free and all secrets are synchronized across all your Apple devices.
+- [1Password](https://1password.com/) - SaaS, paid, but well-known and very capable, suitable also for enterprise clients.
+- [Bitwarden](https://bitwarden.com/) - open-source, does have free version which might be suitable for many, extra features are included in various plans. Its also a good option for enteprise and it allows you to run Bitwarden server on-prem, so you dont need to rely on SaaS.
+
 ## ToDo
 - Password Managers
 - Passkeys
