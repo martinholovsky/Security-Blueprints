@@ -49,8 +49,21 @@
 | **APT-level Security** |  |  |  |  |  |  |
 | Lockdown Mode (optional) | `Privacy & Security` > `Lockdown Mode` | - Enable "Lockdown Mode" (Note: This significantly restricts functionality and is only recommended for users at high risk of targeted attacks). | **Significant** functionality limitations | **Situational** | **Denied:** T1190, T1566.001, T1583.001 | **T1190:** Attackers exploit vulnerabilities in applications. Lockdown Mode restricts functionality, reducing attack surface. **T1566.001:** Attackers send malicious attachments via phishing. Lockdown Mode blocks most attachments. **T1583.001:** Attackers compromise infrastructure. Lockdown Mode limits communication channels, making it harder to exploit. |
 
+## DNS over HTTPs (DoH)
+As mentioned: _DoH encrypts DNS traffic, making it harder for attackers to monitor your browsing activity or redirect you to malicious websites using DNS spoofing or man-in-the-middle attacks._
+
+Below you can find links on files which will update your iOS profile to use DoH
+
+| **Provider** | **Extras** | **iOS Profile Link** | Related website |
+|---|---|---|---|
+| Google | None | [Google-DoH](./files/Google-DoH.mobileconfig) | https://developers.google.com/speed/public-dns/docs/doh |
+| CloudFlare | None | [CloudFlare-DoH](./files/CloudFlare-DoH.mobileconfig) | https://developers.cloudflare.com/1.1.1.1/encryption/ |
+| CloudFlare | Blocking malware and phishing sites | [CloudFlare-Security-DoH](./files/CloudFlare-Security-DoH.mobileconfig) | https://developers.cloudflare.com/1.1.1.1/setup/#1111-for-families |
+| Canadian Shield | None | [CanadianShield-DoH](./files/CanadianShield-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
+| Canadian Shield | Blocking malware and phishing sites | [CanadianShield-Security-DoH](./files/CanadianShield-Security-DoH.mobileconfig) | https://www.cira.ca/en/?post_type=page&p=41850 |
+
+
 ## ToDo
-- DoH profiles
 - Password Managers
 - Passkeys
 - Stricter Control Screen settings
