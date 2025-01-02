@@ -86,9 +86,61 @@ This is not extensive list and there are many other password managers, but below
 | **Availability** | Increasingly supported | Widely supported | Widely supported | Widely supported |
 
 ### Where to store Passkeys?
-Apple devices are using HW security, but in case your Apple account will be compromised, potentially adversary can sync your passkeys to Apple device under their control. Still its a good and recommended options for most people, because if you followed this guide, you already reduced probability of such attack to minimum.
+Apple devices are using HW security, but in case your Apple account will be compromised, potentially adversary can sync your passkeys to Apple device under their control. Still its a good and recommended option for most people, because if you followed this guide, you already reduced probability of such attack to minimum.
 
 **For privileged access to critical systems is preffered to use physical Security Key. Recommended is [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/) as it works very well with Apple and many other devices (via USB-C or NFC).**
 
-## ToDo
-- Screen Time (great hidden features for control and restrictions)
+## Screen Time: A Hidden Gem
+Screen Time is way more than just a way to track how many hours you spend on your phone. It's actually a powerful tool built right into your device that lets you control access and boost security. It's a great way to lock things down for yourself, but it's **especially useful for parents looking to create a safer digital space for their kids.**
+
+**Here's how you can really put Screen Time to work:**
+
+**1. Locking Things Down with a Secret Code:**
+
+*   **The Screen Time Passcode: Your Secret Weapon:** The real magic of Screen Time starts with setting up a dedicated *Screen Time passcode*. **Here's a pro tip: make sure this passcode is different from the one you use to unlock your phone!** That way, even if someone figures out your main passcode (maybe your kid's a little too observant), they won't be able to mess with your Screen Time settings.
+*   **Fort Knox for Your Privacy Settings:** Inside "Content & Privacy Restrictions," you'll find a section labeled "Privacy." This is where you can control the same privacy settings you see in your regular iOS settings (`Settings > Privacy & Security`). But here is the trick: Screen Time lets you **lock these privacy settings down** with your Screen Time passcode. That means no one's changing things like:
+    *   **Location Services:** Stop apps from tracking where you are, or change which apps have access to your location.
+    *   **Contacts, Calendars, Reminders:** Keep your personal info safe and out of the wrong hands.
+    *   **Photos:** Control which apps can see your pictures.
+    *   **Microphone, Speech Recognition, Camera:** Prevent apps from secretly listening in or taking pictures.
+    *   **Media & Apple Music:** Block explicit content.
+    *   **Advertising:** Stop apps from using your data to show you targeted ads.
+*   **Stopping Changes to Key Settings:** Beyond privacy, the "Allow Changes" section in "Content & Privacy Restrictions" lets you lock down other crucial settings, such as:
+    *   **Passcode Changes:** So no one can change your main phone passcode but you.
+    *   **Account Changes:** Prevent anyone from adding, removing, or messing with your accounts (iCloud, email, etc.).
+    *   **Cellular Data Changes:** Keep your data usage in check.
+    *   **Volume Limit:** Keep your hearing safe.
+    *   **Do Not Disturb While Driving:** Make sure that this helpful feature will work as intended.
+*   **Controlling App Installs and Deletions** You can also stop app from installing or deleting in "iTunes & App Store Purchases" settings or **restrict in-app purchases**.
+
+**2. Creating a Kid-Friendly Digital Playground:**
+
+*   **Content Filtering Made Easy:** Screen Time gives you a bunch of ways to filter out inappropriate content:
+    *   **Age Ratings:** Set limits for music, movies, shows, books, and apps based on standard age ratings.
+    *   **Web Filtering:**
+        *   **Block Adult Sites:** Automatically keep those inappropriate websites out of reach.
+        *   **Whitelist Only:** For younger kids, you can create a list of approved websites and block everything else.
+    *   **Siri Smarts:** Stop Siri from searching the web or using naughty language.
+*   **App Time Limits:** Set daily limits for categories of apps (like social media or games) or even for specific apps. This is a great way to curb excessive screen time and encourage a healthy balance.
+*   **Downtime:** Schedule time when the phone is basically off-limits, except for apps you specifically allow and phone calls.
+*   **Communication Control:** Limit who your child can talk to, both during regular screen time and during Downtime. You can choose to allow only specific contacts or open it up to everyone.
+*   **The "Always Allowed" List:** Handpick the apps that are always available, even during Downtime. This is perfect for things like the Phone app (gotta be able to make calls!), Messages (if that's your main way of communicating), or any educational apps you want them to have access to.
+
+**3. Your Own Personal (Mini) MDM:**
+
+While Screen Time isn't as powerful as a full-blown MDM system, it does offer some similar features for managing your own devices or your family's:
+
+*   **Remote Control (with Family Sharing):** If you use Family Sharing, you can manage your child's Screen Time settings remotely from your own phone. Change restrictions, approve app requests, and keep an eye on their usage - all from your device.
+*   **App Management:** Stop new apps from being installed, deleted or restrict in-app purchases.
+*   **Content Filtering:** Just like MDMs, you can control web access and filter out inappropriate content.
+*   **Location Tracking:** While concerning from privacy point, you can use this feature to track location of your family member, if they enabled it in Find My app.
+
+**What Screen Time Can't Do (Compared to a Real MDM):**
+
+*   **No Remote Wipe or Lock:** You can't remotely wipe or lock a device through Screen Time like you can with a full MDM. For this feature you need to use Find My app.
+*   **No Super-Detailed Configuration:** MDMs let you fine-tune device settings to a much greater degree.
+*   **Tech-Savvy Teens Might Find Workarounds:** A determined user with physical access to the device might eventually find ways to get around some Screen Time restrictions. If so, maybe they dont need your control anymore :)
+
+**The Bottom Line:**
+
+Screen Time is a fantastic, built-in tool for anyone who wants to take more control of their digital life, and it's a lifesaver for parents.
