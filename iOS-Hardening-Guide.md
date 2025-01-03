@@ -88,7 +88,14 @@ This is not extensive list and there are many other password managers, but below
 ### Where to store Passkeys?
 Apple devices are using HW security, but in case your Apple account will be compromised, potentially adversary can sync your passkeys to Apple device under their control. Still its a good and recommended option for most people, because if you followed this guide, you already reduced probability of such attack to minimum.
 
-**For privileged access to critical systems is preffered to use physical Security Key. Recommended is [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/) as it works very well with Apple and many other devices (via USB-C or NFC).**
+**For privileged access to critical systems is preffered to use physical Security Key.** Recommended is [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/) or [Yubikey C Bio](https://www.yubico.com/product/yubikey-bio-series/yubikey-c-bio/) as it works very well with Apple and many other devices (via USB-C or NFC).
+
+**Recommendations:**
+- Buy Yubikey from official store or distributors with firmware version 5.7+, as there was [serious vulnerability](https://www.yubico.com/support/security-advisories/ysa-2024-03/) in previous versions and Yubikey by design can't be updated.
+- Buy at least two of them and [always add both Security Keys](https://www.yubico.com/setup/) for access to critical assets/services
+- Have second Yubikey in geographically different location (in case of disaster - fire, floods, ...)
+- Setup PIN for all available functions/methods by [Yubikey Manager](https://www.yubico.com/support/download/yubikey-manager/), so if you left it unattended, it can't be used by adversaries (less relevant for Bio versions requiring fingerprint)
+- Go passwordless! Remove from critical accounts weak authentication methods (as mentioned above in table)
 
 ## Screen Time: A Hidden Gem
 Screen Time is way more than just a way to track how many hours you spend on your phone. It's actually a powerful tool built right into your device that lets you control access and boost security. It's a great way to lock things down for yourself, but it's **especially useful for parents looking to create a safer digital space for their kids.**
