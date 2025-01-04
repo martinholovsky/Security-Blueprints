@@ -2,7 +2,7 @@
 
 ![iOS security guide logo](images/ios_security_guide.png)
 
-_Last update: 03-Jan-2025 (final)_
+_Last update: 04-Jan-2025 (final)_
 | **Setting** | **Location in Settings** | **What to Set Up** | **User Impact** | **Security Importance** | **ATT&CK TTPs** | **TTP Explanation** |
 |---|---|---|---|---|---|---|
 | **Initial Device Setup** |  |  |  |  |  |  |
@@ -22,7 +22,7 @@ _Last update: 03-Jan-2025 (final)_
 | **AirDrop Security** | `Settings > General > AirDrop` or `Control Center` | - Set AirDrop to "Receiving Off" or "Contacts Only" when not actively using it. | Limited file sharing | **Medium** | **Denied:** T1566.001, T1105 | **T1566.001:** Attackers send malicious files via AirDrop. Disabling/restricting AirDrop prevents this. **T1105:** Attackers transfer tools to the device. Disabling/restricting AirDrop prevents this. |
 | **Personal Hotspot Security** | `Settings > Personal Hotspot` or `Control Center` | - Disable the Personal Hotspot when not in use. | Manual hotspot activation | **Low** | **Denied:** T1583.001 | **T1583.001:** Attackers compromise the personal hotspot to gain network access. Disabling it prevents this. |
 | **Siri & Search** | `Settings > Siri & Search` | - Disable "Listen for 'Hey Siri'" if not needed. - Disable "Allow Siri When Locked". - Review and limit which apps can use Siri and Search. | Moderate - May impact the convenience of using Siri. | **Situational** | **Deters:** T1204: User Execution **Denied:** T1071: Application Layer Protocol | These settings restrict the conditions under which Siri can be activated and which apps can use it, thereby minimizing the risk of unauthorized actions or the exploitation of application layer protocols by an adversary. |
-| **Control Center on Lock Screen** | `Face ID & Passcode` (or `Touch ID & Passcode`) | - Disable "Control Center" under "Allow Access When Locked". | No Control Center access on lock screen | **Medium** | **Denied:** T1078, T1555 | **T1078:** Attackers can access Control Center on a locked device to enable Airplane Mode, disrupting Find My iPhone. **T1555:** Attackers can access Control Center to potentially access sensitive information. |
+| **Control Center on Lock Screen** | `Face ID & Passcode` (or `Touch ID & Passcode`) | - Disable "Control Center" under "Allow Access When Locked". Keep there only "Notification Center" and "Lock Screen Widgets" for highest security. | No Control Center access on lock screen | **Medium** | **Denied:** T1078, T1555 | **T1078:** Attackers can access Control Center on a locked device to enable Airplane Mode, disrupting Find My iPhone. **T1555:** Attackers can access Control Center to potentially access sensitive information. |
 | **Safari Security** |  |  |  |  |  |  |
 | **Fraudulent Website Warning** | `Settings > Apps > Safari` | - Enable "Fraudulent Website Warning". | May block some website features (unlikely) | **High** | **Deters:** T1566 | **T1566:** Attackers use phishing websites to steal credentials or deliver malware. Safari's warning deters users from accessing these sites. |
 | **Disable AutoFill** | `Settings > Apps > Safari` | - Disable "AutoFill" for sensitive information like passwords and credit cards. | Manual entry of sensitive data | **High** | **Deters:** T1566 | **T1566:**  Attackers use phishing websites to steal credentials. Disabling AutoFill prevents automatic form filling on potentially malicious sites. |
