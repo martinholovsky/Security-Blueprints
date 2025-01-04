@@ -103,6 +103,10 @@ Apple devices are using HW security, but in case your Apple account will be comp
 - Setup PIN for all available functions/methods by [Yubikey Manager](https://www.yubico.com/support/download/yubikey-manager/), so if you left it unattended, it can't be used by adversaries (less relevant for Bio versions requiring fingerprint)
 - Go passwordless! Remove from critical accounts weak authentication methods (as mentioned above in table)
 
+## Web Browser Privacy
+If private browsing is highly important aspect for you, use Brave browser. Here you can see results of privacy tests for most used browsers. Keep on mind that many Apps are using Safari engine for web content.
+https://privacytests.org/
+
 ## Screen Time: A Hidden Gem
 Screen Time is way more than just a way to track how many hours you spend on your phone. It's actually a powerful tool built right into your device that lets you control access and boost security. It's a great way to lock things down for yourself, but it's **especially useful for parents looking to create a safer digital space for their kids.**
 
