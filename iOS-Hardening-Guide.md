@@ -83,11 +83,11 @@ This is not extensive list and there are many other password managers, but below
 - **Stronger Security:** Passkeys utilize public-key cryptography, a highly secure method that is much stronger than traditional passwords.
 - **Improved User Experience:** Passkeys are easier to use than passwords and traditional 2FA methods, as they rely on biometrics or device authentication. This leads to a smoother and more convenient login experience.
 
-| Feature | Passkeys | Passwords | SMS-based 2FA | Authenticator Apps |
+| Feature | **Passkeys** | Passwords | SMS-based 2FA | Authenticator Apps |
 |---|---|---|---|---|
-| **Security** | Strongest | Weakest | Vulnerable to SIM swapping and phishing | Strong, but can be susceptible to phishing and device compromise |
-| **Phishing Resistance** | Yes | No | No | Partially (can be tricked by sophisticated phishing) |
-| **User Experience** | Most convenient | Least convenient | Can be slow and unreliable | Requires an extra step and app installation |
+| **Security** | ✅ Strongest | Weakest | Vulnerable to SIM swapping and phishing | Strong, but can be susceptible to phishing and device compromise |
+| **Phishing Resistance** | ✅ Yes | No | No | Partially (can be tricked by sophisticated phishing) |
+| **User Experience** | ✅ Most convenient | Least convenient | Can be slow and unreliable | Requires an extra step and app installation |
 | **Cost** | Free | Free | Can incur costs for SMS messages | Free |
 | **Availability** | Increasingly supported | Widely supported | Widely supported | Widely supported |
 
