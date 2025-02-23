@@ -6,7 +6,7 @@
 
 **1. Introduction:**
 
-This document outlines the technology stack for [Project Name], a Kubernetes-based platform designed for deploying and managing secure, scalable, and observable microservices applications. The architecture emphasizes DevSecOps and GitOps principles, leveraging open-source tools to create a robust, resilient, and efficient environment.  The platform is built with security as a primary concern, incorporating multiple layers of defense and preparing for potential attacks.
+This document outlines the technology stack for Kubernetes GitSecOps, a Kubernetes-based platform designed for deploying and managing secure, scalable, and observable microservices applications. The architecture emphasizes DevSecOps and GitOps principles, leveraging open-source tools to create a robust, resilient, and efficient environment.  The platform is built with security as a primary concern, incorporating multiple layers of defense and preparing for potential attacks.
 
 **2. Key Design Principles:**
 
@@ -135,8 +135,8 @@ This technology stack is designed around a layered architecture, with each layer
 **5. Application Security (AppSec):**
 
 *   **Static Application Security Testing (SAST):**
-    *   Frontend (JavaScript/Vue.js): Semgrep, ESLint with security plugins.
-    *   Backend (Python/FastAPI): Semgrep, Bandit.
+    *   Frontend (JavaScript/Vue.js): Opengrep, ESLint with security plugins.
+    *   Backend (Python/FastAPI): Opengrep, Bandit.
 *   **Dynamic Application Security Testing (DAST):**
     *   General Web: OWASP ZAP.
     *   GraphQL-specific: InQL, Escape GraphQL Security Scanner, GraphQL Raider.
@@ -152,9 +152,9 @@ This technology stack is designed around a layered architecture, with each layer
 2.  Developers use Kustomize to manage Kubernetes configurations.
 3.  Argo CD continuously monitors the Git repository and automatically applies changes to the Kubernetes cluster.
 4.  CI/CD pipelines (managed by Argo CD) include automated security checks:
-    *   **SAST (Semgrep):** Scans code for vulnerabilities.
+    *   **SAST (Opengrep):** Scans code for vulnerabilities.
     *   **SCA and Container Image Scanning (Trivy):** Scans dependencies and images for vulnerabilities and secrets.
-    *   **Secrets Scanning (Trivy, Talisman, Gitleaks):** Detects secrets in code.
+    *   **Secrets Scanning (Trivy):** Detects secrets in code.
     *   **DAST (OWASP ZAP):** Performs dynamic scans against staging environments.
     *   **Pre-commit hooks (Talisman):** Prevents secrets from being committed.
 5.  Kyverno enforces security policies within the cluster.
