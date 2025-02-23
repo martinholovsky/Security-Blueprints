@@ -1,6 +1,6 @@
 # Kubernetes GitSecOps Reference Architecture
 
-
+![Kubernetes GitSecOps](./images/Kubernetes-GitSecOps.png)
 
 ## Reference Architecture: Secure, Scalable, and Observable Kubernetes Platform
 
