@@ -5,4 +5,6 @@ Collection of my Security Blueprints
 
 ## [Kubernetes GitSecOps Reference Architecture](gitsecops.md)
 
+## [Endpoint XDR Selection Process](endpoint-xdr.md)
+
 More to come soon, planned: Android, macOS, Windows, ...
