@@ -10,6 +10,7 @@ This Security Architecture Stack provides a complete view of modern threat lands
 ✅ From silicon to cloud—nothing missed
 
 Use it for:
+
 👉 Threat modeling workshops
 
 👉 Security architecture reviews
