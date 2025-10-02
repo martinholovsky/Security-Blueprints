@@ -3,6 +3,8 @@ Collection of my Security Blueprints, Guides, etc. Anything what take considerab
 
 ## [Ultimate iOS (iPhone & iPad) Hardening Guide](iOS-Hardening-Guide.md)
 
+## [Security Architecture Stack & Attacks](secarch-stack.md)
+
 ## [Enterprise AI Development Guide Template](Enterprise-AI-Development-Guide.md)
 
 ## [Kubernetes GitSecOps Reference Architecture](gitsecops.md)
