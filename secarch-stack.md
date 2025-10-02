@@ -18,6 +18,7 @@ Use it for:
 
 👉 Team training and alignment
 
-[PDF version](https://github.com/martinholovsky/Security-Blueprints/blob/main/images/Defensive.Network%20Security%20Architecture%20Stack.png)
-![Security Architecture Stack](https://github.com/martinholovsky/Security-Blueprints/blob/main/images/Defensive.Network%20Security%20Architecture%20Stack.png)
+[PDF version](https://github.com/martinholovsky/Security-Blueprints/blob/main/images/Defensive.Network%20Security%20Architecture%20Stack.pdf)
+![Security Architecture Stack](https://github.com/martinholovsky/Security-Blueprints/blob/main/images/Defensive.Network%20Security%20Architecture%20Stack-1.png)
+![Security Architecture Stack](https://github.com/martinholovsky/Security-Blueprints/blob/main/images/Defensive.Network%20Security%20Architecture%20Stack-2.png)
 
